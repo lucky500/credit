@@ -1,3 +1,5 @@
+@import reset.css
+
 html {
 	min-height: 100%;
 }
@@ -29,17 +31,17 @@ body {
 	left: 8%;
 }
 
-h1 {
+#title {
 	color: #efecec;
 	text-transform: uppercase;
 	font-size: 50px;
-	font-weight: 800;
+	font-weight: 700;
 	font-family: 'Cantarell', sans-serif;
 	text-shadow: 3px 3px black;
 	 /* -webkit-text-stroke: 2px #000; */
 }
 
-button {
+#button {
 	width: 150px;
 	height: 48px;
 	background: transparent;
@@ -52,8 +54,12 @@ button {
 	background: rgba(12,12,12,.3);
 }
 
-button:hover {
+#button:hover {
 	background: #a0ce4e;
 	border: 1px solid #a0ce4e;
 	cursor: pointer;
+}
+
+#button:active {
+	border: 1px solid #a0ce4e;
 }
